@@ -28,9 +28,10 @@ function NewApp() {
 
   const listItemRemover = (id) => {
     console.log(id);
-    listaZadan(listaZadan.filter((item, index) => index !== id));
+    setListaZadan(listaZadan.filter((item, index) => index !== id));
     setlistFiltered(listaZadan.filter((item, index) => index !== id));
   };
+
   return (
     <div>
       {/* 1. Opracowanie listy zadań do zrobienia przez użytkownika */}
@@ -44,8 +45,6 @@ function NewApp() {
         <h5>Wyszukaj</h5>
         <input onChange={(e) => listFilter(e)}></input>
       </div>
-
-      {/* 4. usuwanie zadania użytkownika  */}
     </div>
   );
 }

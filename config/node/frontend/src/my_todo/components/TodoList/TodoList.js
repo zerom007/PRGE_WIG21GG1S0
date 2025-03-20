@@ -5,7 +5,7 @@ function TodoList({ listaZadan, listItemRemover }) {
   console.log(listaZadan);
   return (
     <div>
-      <h2>Lista zadan do zrobienia</h2>
+      <h2>Lista Zadań do zrobienia</h2>
       <ul>
         {listaZadan.map((zadanie, i) => {
           return (
