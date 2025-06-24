@@ -1,7 +1,7 @@
 import React from "react";
 import "./Services.css";
 import { Link } from "react-router-dom";
-import promocja_wat from "./promocja_wat.jpg";
+import restauracja from "./ChatGPT Image 23 cze 2025, 18_43_34.png";
 
 function Services() {
   return (
@@ -15,30 +15,23 @@ function Services() {
           </div>
           <div className="services_buttons">
             <Link to="map">
-              <button className="services_button" id="mapa">
-                MAPA
+              <button
+                className="services_button"
+                id="mapa"
+                onClick={() => console.log("kliknięto")}
+              >
+                Mapa dostępnych restauracji
               </button>
             </Link>
             <Link to="militaryunits">
               <button className="services_button" id="lista">
-                WYKAZ lub lista CZEGOŚ
+                Wykaz restauracji
               </button>
             </Link>
           </div>
         </div>
         <div className="services_bottomRight">
-          <div className="services_imageItem">
-            <img src={promocja_wat} alt="" />
-          </div>
-          <div className="services_imageItem">
-            <img src={promocja_wat} alt="" />
-          </div>
-          <div className="services_imageItem">
-            <img src={promocja_wat} alt="" />
-          </div>
-          <div className="services_imageItem">
-            <img src={promocja_wat} alt="" />
-          </div>
+          <div className="services_imageItem"></div>
         </div>
       </div>
     </div>

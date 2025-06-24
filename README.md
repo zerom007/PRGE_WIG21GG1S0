@@ -14,5 +14,5 @@ docker-compose up -- build
 ### for linux user
 
 '''bash
-make up
+docker-compose -p wat-project up --build -d
 '''

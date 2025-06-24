@@ -2,3 +2,43 @@
   width: 100vw;
   height: 100vh;
 }
+.Popup_Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.leaflet-popup-content-wrapper {
+  background: #333;
+  color: wheat;
+  font-family: "Arial", sans-serif;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.leaflet-popup-tip {
+  background: #333;
+}
+
+.popup-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.popup-content p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.leaflet-popup-content-wrapper {
+  font-size: 12px;
+}
+.leaflet-popup-content-wrapper {
+  text-align: center;
+}
+.leaflet-popup-content-wrapper h5 {
+  font-size: 24px;
+  text-align: center;
+}

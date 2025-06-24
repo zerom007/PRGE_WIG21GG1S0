@@ -2,7 +2,29 @@
   /* background-color: aquamarine; */
   margin-top: 5vh;
 }
-
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./ChatGPT Image 23 cze 2025, 12_22_26.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services_top {
+  width: 100%;
+  color: wheat;
+  font: default;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
 .home_logo {
   height: 90vh;
 }
@@ -31,11 +53,11 @@
 .home_button {
   width: 303px;
   height: 83px;
-  background-color: #276cd3;
-  opacity: 0.75;
-  font-size: 36px;
+  background-color: #854215;
+  opacity: 0.9;
+  font-size: 33px;
   border-color: transparent;
-  color: white;
+  color: wheat;
   margin-top: 10vh;
   border-radius: 5px;
 }
@@ -43,7 +65,7 @@
   scale: 1.05;
   transition: 0.8s;
   color: black;
-  background-color: lightblue;
+  background-color: lightbrown;
 }
 
 .home_top {
